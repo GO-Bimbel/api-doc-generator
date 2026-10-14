@@ -30,4 +30,6 @@ Jalankan agent dari folder yang berisi semua repo service, lalu:
 
 Hasilnya disimpan di `<app-root>/docs/<nama-target>.json` dan `.docx`.
 
+Untuk target NestJS, skill juga melengkapi anotasi `@nestjs/swagger` yang belum ada di controller project target (menambah `@ApiTags`, `@ApiOperation`, dan DTO proxy untuk parameter bertipe `any`). Perubahan baru ditulis setelah kamu setujui.
+
 Alur lengkapnya ada di [`skills/api-doc-generator/SKILL.md`](skills/api-doc-generator/SKILL.md).
